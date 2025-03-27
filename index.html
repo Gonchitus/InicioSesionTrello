@@ -1,51 +1,579 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicia sesión para continuar | Iniciar sesión con la cuenta de Atlassian</title>
-    <link rel="stylesheet" href="css/style.css">   
+    <title>Sitio oficial de Xbox: Consolas, juegos y </title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="img/pngegg.png">
 </head>
 
 <body>
-    <main class="h-110">
-        <div class="box-form">
-            <div class="column text-center align-items-center">
-                <img src="img/logo.svg" alt="" width="117.5" height="35">
-                <h5 class="text-black">Inicia sesión para continuar</h5>
-                <form action="#" method="post">
-                    <input type="email" placeholder="Introduce tu correo electrónico" class="btn margin-bottom">
-                    <input type="submit" value="Continuar" class="btn btn-blue"><br>
-                </form>
+    <header>
+        <section>
+            <nav class="navbar navbar-expand-lg bg-beige">
+                <div class="container">
+                    <a class="navbar-brand" href="https://www.microsoft.com/es-es/">
+                        <img src="img/logomicrosoft.png" alt="" width="100" class="img-fluid">
+                    </a>
+                    <div class="me-3 fs-4 fw-bold">|</div>
+                    <a class="navbar-brand" href="#">
+                        <img src="img/logoxbox.png" alt="" width="70" class="img-fluid">
+                    </a>
+                    <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavId">
+                        <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">Game Pass</a>
+                                <div class="dropdown-menu bg-light rounded-0" aria-labelledby="dropdownId">
+                                    <a class="dropdown-item"
+                                        href="https://www.xbox.com/es-ES/xbox-game-pass?xr=shellnav">Únete a Game
+                                        Pass</a> </a>
+                                    <a class="dropdown-item"
+                                        href="https://www.xbox.com/es-es/xbox-game-pass/games?xr=shellnav">Explorar
+                                        juegos</a>
+                                    <a class="dropdown-item"
+                                        href="https://www.xbox.com/es-es/xbox-game-pass/ultimate?xr=shellnav">Game Pass
+                                        Ultimate</a>
+                                    <a class="dropdown-item"
+                                        href="https://www.xbox.com/es-ES/xbox-game-pass/pc-game-pass?xr=shellnav">PC
+                                        Game Pass</a>
+                                    <a class="dropdown-item"
+                                        href="https://www.xbox.com/es-es/xbox-game-pass/core?xr=shellnav">Game Pass
+                                        Core</a>
+                                    <a class="dropdown-item"
+                                        href="https://www.xbox.com/es-es/xbox-game-pass/deals?xr=shellnav">Ofertas con
+                                        Game Pass</a>
+                                    <a class="dropdown-item"
+                                        href="https://www.xbox.com/es-ES/cloud-gaming?xr=shellnav">Xbox Cloud Gaming
+                                        (Beta)</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">Juegos</a>
+                                <div class="dropdown-menu bg-light rounded-0" aria-labelledby="dropdownId">
+                                    <a class="dropdown-item" href="https://www.xbox.com/es-es/games?xr=shellnav">Página
+                                        principal de juegos</a>
+
+                                    <a class="dropdown-item"
+                                        href="https://www.xbox.com/es-ES/games/all-games/console?PlayWith=XboxSeriesX%7CS%2CXboxOne&xr=shellnav">Explora
+                                        todos los juegos para <br>
+                                        consola</a>
+                                    <a class="dropdown-item"
+                                        href="https://www.xbox.com/es-ES/games/all-games/pc?PlayWith=PC&xr=shellnav">Explorar
+                                        todos los juegos de <br>
+                                        PC</a>
+                                    <a class="dropdown-item" href="https://www.xbox.com/es-es/play?xr=shellnav">Juegos
+                                        en la nube</a>
+                                    <a class="dropdown-item"
+                                        href="https://www.xbox.com/es-es/games/xbox-play-anywhere?xr=shellnav">Xbox Play
+                                        Anywhere</a>
+                                    <a class="dropdown-item"
+                                        href="https://www.xbox.com/es-es/games/free-to-play?xr=shellnav">Juegos
+                                        gratuitos</a>
+                                    <a class="dropdown-item"
+                                        href="https://www.xbox.com/es-es/games/optimized?xr=shellnav">Juegos
+                                        optimizados</a>
+                                    <a class="dropdown-item"
+                                        href="https://www.xbox.com/es-es/games/backward-compatibility?xr=shellnav">Juegos
+                                        con compatibilidad <br> con versiones
+                                        anteriores</a>
+                                    <a class="dropdown-item"
+                                        href="https://www.xbox.com/es-es/promotions/sales/sales-and-specials?xr=shellnav">Ofertas
+                                        y especiales</a>
+                                    <a class="dropdown-item"
+                                        href="https://www.xbox.com/es-es/redeem?xr=shellnav">Canjear código</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">Dispositivos</a>
+                                <div class="dropdown-menu bg-light rounded-0" aria-labelledby="dropdownId"
+                                    style="min-width: 500px;">
+                                    <div class="row px-2">
+                                        <div class="col-6">
+                                            <h6 class="dropdown-header fw-bold">Consolas</h6>
+                                            <a class="dropdown-item"
+                                                href="https://www.xbox.com/es-ES/consoles?xr=shellnav">Xbox Consolas</a>
+                                            <a class="dropdown-item"
+                                                href="https://www.xbox.com/es-ES/consoles/xbox-series-x?xr=shellnav">Xbox
+                                                Series X</a>
+                                            <a class="dropdown-item"
+                                                href="https://www.xbox.com/es-ES/consoles/xbox-series-s?xr=shellnav">Xbox
+                                                Series S</a>
+                                            <a class="dropdown-item"
+                                                href="https://www.xbox.com/es-ES/consoles/all-consoles?xr=shellnav">Ver
+                                                todas las consolas</a>
+                                            <a class="dropdown-item"
+                                                href="https://www.xbox.com/es-ES/where-to-buy?xr=shellnav">Dónde
+                                                comprar</a>
+                                        </div>
+                                        <div class="col-6">
+                                            <h6 class="dropdown-header fw-bold">Accesorios</h6>
+                                            <a class="dropdown-item"
+                                                href="https://www.xbox.com/es-ES/accessories?xr=shellnav">Ver todos los
+                                                accesorios</a>
+                                            <a class="dropdown-item"
+                                                href="https://www.xbox.com/es-ES/accessories?xr=shellnav#controllers">Controles</a>
+                                            <a class="dropdown-item"
+                                                href="https://www.xbox.com/es-ES/accessories?xr=shellnav#headsets">Cascos</a>
+                                            <a class="dropdown-item"
+                                                href="https://www.xbox.com/es-ES/accessories?xr=shellnav#storage">Discos
+                                                duros y <br> almacenamiento</a>
+                                            <a class="dropdown-item"
+                                                href="https://www.xbox.com/es-ES/accessories?xr=shellnav#mobile">Accesorios
+                                                para juegos en <br>
+                                                dispositivos
+                                                móviles</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link fs-6" href="https://www.xbox.com/es-ES/play?xr=shellnav">Juega</a>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">Tienda</a>
+                                <div class="dropdown-menu bg-light rounded-0" aria-labelledby="dropdownId">
+                                    <a class="dropdown-item" href="https://www.xbox.com/es-es/games?xr=shellnav">Comprar
+                                        juegos</a>
+                                    <a class="dropdown-item"
+                                        href="https://www.xbox.com/es-es/xbox-game-pass?xr=shellnav">Comprar Game
+                                        Pass</a>
+                                    <a class="dropdown-item"
+                                        href="https://www.xbox.com/es-es/consoles/all-consoles?xr=shellnav">Comprar
+                                        consolas</a>
+                                    <a class="dropdown-item"
+                                        href="https://www.xbox.com/es-es/accessories?xr=shellnav">Comprar accesorios</a>
+                                    <a class="dropdown-item"
+                                        href="https://www.xbox.com/es-es/promotions/sales/sales-and-specials?xr=shellnav">Comprar
+                                        ofertas</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">Comunidad</a>
+                                <div class="dropdown-menu bg-light rounded-0" aria-labelledby="dropdownId">
+                                    <a class="dropdown-item"
+                                        href="https://www.xbox.com/es-es/community/fanfest?xr=shellnav">FanFest</a>
+                                    <a class="dropdown-item"
+                                        href="https://www.xbox.com/es-ES/family-hub?xr=shellnav">Para todas las
+                                        edades</a>
+                                    <a class="dropdown-item"
+                                        href="https://www.xbox.com/es-es/apps/xbox-app-on-pc?xr=shellnav">Apps y
+                                        entretenimiento</a>
+                                </div>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="dropdownId" data-bs-toggle="dropdown"
+                                    aria-haspopup="true" aria-expanded="false">Más</a>
+                                <div class="dropdown-menu bg-light rounded-0" aria-labelledby="dropdownId">
+                                    <a class="dropdown-item" href="https://support.xbox.com/es-ES/">Soporte técnico</a>
+                                    <a class="dropdown-item" href="https://www.xbox.com/es-es/play/user?xr=shellnav">Mi
+                                        Xbox</a>
+                                    <a class="dropdown-item"
+                                        href="https://developer.microsoft.com/en-us/games/?xr=shellnav">Desarrolladores</a>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="collapse navbar-collapse" id="collapsibleNavId">
+                            <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                                <li class="nav-item mt-2 ms-3">
+                                    <a class="navbar-link" href="https://www.xbox.com/es-es/games/browse">
+                                        <i class="fa fa-search text-dark" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <li class="nav-item mt-2 ms-3">
+                                    <a class="navbar-link" href="https://www.xbox.com/es-ES/cart">
+                                        <i class="fa fa-shopping-cart text-dark" aria-hidden="true"></i>
+                                    </a>
+                                </li>
+                                <a class="navbar-brand ms-3" href="https://www.xbox.com/es-ES/live">
+                                    <img src="img/login.svg" alt="" width="30" class="img-fluid">
+                                </a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </section>
+        <section>
+            <div id="carouselId" class="carousel slide" data-bs-ride="carousel" data-bs-interval="8000">
+                <ol class="carousel-indicators list-unstyled">
+                    <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true"
+                        aria-label="First slide"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+                </ol>
+                <div class="carousel-inner position-relative" role="listbox">
+                    <div class="carousel-item active">
+                        <a href="https://www.xbox.com/es-ES/xbox-game-pass#join"><img src="img/carousel1.jpg"
+                                class="w-100 d-block img-fluid" alt="First slide"></a>
+                        <div class="container-fluid overlay">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="content position-absolute top-50 translate-middle-y">
+                                            <span class="badge bg-warning text-dark mb-3 rounded-0">NUEVA
+                                                TEMPORADA</span>
+                                            <h1 class="text-white">Call of Duty&reg;: Black Ops 6 - <br> Temporada 02
+                                            </h1>
+                                            <p class="text-white">Juega con Game Pass y actualiza a <br> BlackCell para
+                                                obtener contenido exclusivo.</p>
+                                            <div class="col">
+                                                <a href="https://www.xbox.com/es-ES/xbox-game-pass#join"
+                                                    class="btn btn-success text-success-emphasis fw-bold rounded-0">ÚNETE
+                                                    A GAME PASS ></a>
+                                                <a href="https://www.xbox.com/es-ES/games/call-of-duty-black-ops-6#whatsnew"
+                                                    class="btn text-white fw-bold rounded-0">CONSíGUELO HOY
+                                                    ></a>
+                                            </div>
+                                        </div>
+                                        <div class="cb"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://www.xbox.com/es-ES/games/assassins-creed-shadows"><img src="img/carousel2.jpg"
+                                class="w-100 d-block img-fluid" alt="Second slide"></a>
+                        <div class="container-fluid overlay">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="content position-absolute top-50 translate-middle-y">
+                                            <span class="badge bg-warning text-dark mb-3 rounded-0">YA
+                                                DISPONIBLES</span>
+                                            <h1 class="text-white">Assassin's Creed Shadows</h1>
+                                            <p class="text-white">Ponte en la piel de un asesino ninja y un <br> samurái
+                                                legendario en el Japón feudal</p>
+                                            <a href="https://www.xbox.com/es-ES/games/assassins-creed-shadows"
+                                                class="btn btn-success text-success-emphasis fw-bold rounded-0">CONSíGUELO
+                                                HOY
+                                                ></a>
+                                        </div>
+                                        <div class="cb"></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <a href="https://www.xbox.com/es-ES/games/33-immortals"><img src="img/carousel3.jpg"
+                                class="w-100 d-block img-fluid" alt="Third slide"></a>
+                        <div class="container-fluid overlay">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="content position-absolute top-50 translate-middle-y">
+                                            <span class="badge bg-warning text-dark mb-3 rounded-0">XBOX SERIES X|S · PC
+                                                · NUBE</span>
+                                            <h1 class="text-white">33 Immortals (Versión <br>
+                                                preliminar del juego)</h1>
+                                            <p class="text-white">Juégalo con PC Game Pass o Ultimate</p>
+                                            <div class="col">
+                                                <a href="https://www.xbox.com/es-ES/games/33-immortals"
+                                                    class="btn btn-success text-success-emphasis fw-bold rounded-0">CONSíGUELO
+                                                    HOY
+                                                    ></a>
+                                                <a href="https://www.xbox.com/es-ES/xbox-game-pass#join"
+                                                    class="btn text-white fw-bold rounded-0">ÚNETE
+                                                    A GAME PASS ></a>
+                                            </div>
+                                            <div class="cb"></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselId"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon position-absolute start-0" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselId"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon position-absolute end-0" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+        </section>
+    </header>
+    <main>
+        <section class="pt-5">
+            <div class="container">
+                <div class="row justify-content-center mx-5">
+                    <div class="col-xl-2 col-md-4 col-6 text-center">
+                        <a href="https://www.xbox.com/es-ES/xbox-game-pass" class="text-decoration-none">
+                            <img src="img/gamepass.svg" alt="" width="70">
+                            <h5 class="text-success fw-bold">GAME PASS</h5>
+                        </a>
+                    </div>
+                    <div class="col-xl-2 col-md-4 col-6 text-center">
+                        <a href="https://www.xbox.com/es-ES/games" class="text-decoration-none">
+                            <img src="img/juegos.svg" alt="" width="70">
+                            <h5 class="text-success fw-bold">JUEGOS</h5>
+                        </a>
+                    </div>
+                    <div class="col-xl-2 col-md-4 col-6 text-center">
+                        <a href="https://www.xbox.com/es-ES/consoles" class="text-decoration-none">
+                            <img src="img/consolas.svg" alt="" width="70">
+                            <h5 class="text-success fw-bold">CONSOLAS</h5>
+                        </a>
+                    </div>
+                    <div class="col-xl-2 col-md-4 col-6 text-center">
+                        <a href="https://www.xbox.com/es-ES/accessories" class="text-decoration-none">
+                            <img src="img/accesorios.svg" alt="" width="70">
+                            <h5 class="text-success fw-bold">ACCESORIOS</h5>
+                        </a>
+                    </div>
+                    <div class="col-xl-2 col-md-4 col-6 text-center">
+                        <a href="https://www.xbox.com/es-ES/play" class="text-decoration-none">
+                            <img src="img/juega.svg" alt="" width="70">
+                            <h5 class="text-success fw-bold">JUEGA</h5>
+                        </a>
+                    </div>
+                    <div class="col-xl-2 col-md-4 col-6 text-center">
+                        <a href="https://www.xbox.com/es-ES/live" class="text-decoration-none">
+                            <img src="img/sesion.svg" alt="" width="70">
+                            <h5 class="text-success fw-bold">INICIAR SESIÓN</h5>
+                        </a>
+                    </div>
+                </div>
             </div>
-            <div class="column text-center align-items-center">
-                <p>O continúa con:</p>
-                <button onclick="location.href='https://accounts.google.com/o/oauth2'" class="btn btn-white align-items-center justify-content-center row"><img
-                        src="img/google-logo.svg" alt="" width="24"><strong> Google</strong></button><br>
-                <button onclick="location.href='https://login.microsoftonline.com'"  class="btn btn-white align-items-center justify-content-center row"><img
-                        src="img/microsoft-logo.svg" alt="" width="24"><strong> Microsoft</strong></button><br>
-                <button onclick="location.href='https://appleid.apple.com/auth/authorize'" class="btn btn-white align-items-center justify-content-center row"><img
-                        src="img/apple-logo.svg" alt="" width="24"><strong> Apple</strong></button><br>
-                <button onclick="location.href='https://slack.com/workspace-signin'" class="btn btn-white align-items-center justify-content-center row"><img
-                        src="img/slack-logo.svg" alt="" width="24"><strong> Slack</strong></button><br>
+        </section>
+        <section>
+            <div class="row m-0">
+                <div class="col-lg-6 p-0">
+                    <div class="card bg-dark text-white border-0">
+                        <img class="card-img rounded-0 img-fluid" src="img/gameg1.jpg" alt="Title">
+                        <div class="card-img-overlay">
+                            <div class="container h-100">
+                                <div class="d-flex align-items-end h-100 pb-5">
+                                    <div>
+                                        <span class="badge bg-warning text-dark mb-3 rounded-0">YA DISPONIBLES</span>
+                                        <h5 class="text-white">MLB The Show 25</h5>
+                                        <p class="text-white">Forja tu viaje de béisbol</p>
+                                        <div class="col">
+                                            <a href=""
+                                                class="text-decoration-none text-white fw-bold rounded-0">CONSíGUELO HOY
+                                                ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 p-0">
+                    <div class="h-50">
+                        <div class="row m-0 h-100">
+                            <div class="col-6 bg-success text-white p-0">
+                                <div class="d-flex justify-content-center align-items-center h-100">
+                                    <div>
+                                        <a href="https://www.xbox.com/es-ES/xbox-game-pass"
+                                            class="text-decoration-none text-white">
+                                            <h4>Descubre tu <br> siguiente juego <br> favorito</h4>
+                                            <p>Disfruta de cientos de juegos por <br> un módico precio mensual</p>
+                                            <a href="https://www.xbox.com/es-ES/xbox-game-pass"
+                                                class="text-decoration-none text-white fw-bold rounded-0">ÚNETE
+                                                AHORA ></a>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 p-0">
+                                <a href="https://www.xbox.com/es-ES/xbox-game-pass">
+                                    <img src="img/game1.jpg" alt="" class="w-100 img-fluid h-100">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="h-50">
+                        <div class="row m-0 h-100">
+                            <div class="col-6 p-0">
+                                <img src="img/game2.jpg" alt="" class="w-100 img-fluid h-100">
+                            </div>
+                            <div class="col-6 bg-success text-white p-0">
+                                <div class="d-flex justify-content-center align-items-center h-100 ms-5">
+                                    <div>
+                                        <a href="https://www.xbox.com/es-ES/games/minecraft#whatsnew"
+                                            class="text-decoration-none text-white">
+                                            <span class="badge bg-warning text-dark mb-3 rounded-0">EN DIRECTO</span>
+                                            <h4>Minecraft LIVE</h4>
+                                            <p>Conéctate el 22 de marzo para conocer los lanzamientos del <br> juego,
+                                                una
+                                                película de Minecraft y mucho más</p>
+                                            <a href="https://www.xbox.com/es-ES/games/minecraft#whatsnew"
+                                                class="text-decoration-none text-white fw-bold rounded-0">VER
+                                                DETALLES ></a>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="column align-items-center justify-content-center">
-                <ul>
-                    <li><a href="https://id.atlassian.com/login/resetpassword">¿No puedes iniciar sesión?</a></li>
-                    <p class="point">•</p>
-                    <li><a href="https://id.atlassian.com/signup">Crear cuenta</a></li>
-                </ul>
+            <div class="row m-0">
+                <div class="col-lg-6 p-0">
+                    <div class="h-50">
+                        <div class="row m-0 h-100">
+                            <div class="col-6 bg-success text-white p-0 h-100">
+                                <div class="d-flex justify-content-center align-items-center h-100">
+                                    <div>
+                                        <a href="https://www.xbox.com/es-ES/games/store/monster-hunter-wilds/9NMT6XFN0LVD"
+                                            class="text-decoration-none text-white">
+                                            <span class="badge bg-warning text-dark mb-3 rounded-0">YA DISPONIBLE</span>
+                                            <h4>Monster Hunter <br> Wilds</h4>
+                                            <p>Únete a la caza, explora un <br>
+                                                mundo con vida propia y lucha <br>
+                                                contra feroces monstruos</p>
+                                            <a href="https://www.xbox.com/es-ES/games/store/monster-hunter-wilds/9NMT6XFN0LVD"
+                                                class="text-decoration-none text-white fw-bold rounded-0">CONSÍGUELO
+                                                HOY
+                                                ></a>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 p-0">
+                                <img src="img/game3.jpg" alt="" class="w-100 img-fluid h-100">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="h-50">
+                        <div class="row m-0 h-100">
+                            <div class="col-6 p-0">
+                                <img src="img/game4.jpg" alt="" class="w-100 img-fluid h-100">
+                            </div>
+                            <div class="col-6 bg-success text-white p-0">
+                                <div class="d-flex justify-content-center align-items-center h-100">
+                                    <div>
+                                        <a href="https://www.xbox.com/es-ES/games/fallout-76"
+                                            class="text-decoration-none text-white">
+                                            <span class="badge bg-warning text-dark mb-3 rounded-0">JUEGA CON GAME
+                                                PASS</span>
+                                            <h4>Desbloquea tu <br>
+                                                Ghoul interior... en <br>
+                                                Fallout 76</h4>
+                                            <p>Conviértete en un Ghoul y <br>
+                                                disfruta de Appalachia como <br>
+                                                nunca antes.</p>
+                                            <a href="https://www.xbox.com/es-ES/games/fallout-76"
+                                                class="text-decoration-none text-white fw-bold rounded-0">CONSÍGUELO
+                                                HOY
+                                                ></a>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 p-0">
+                    <div class="card bg-dark text-white border-0">
+                        <img class="card-img rounded-0" src="img/gameg2.jpg" alt="Title">
+                        <div class="card-img-overlay">
+                            <div class="container h-100">
+                                <div class="d-flex align-items-end h-100 pb-5">
+                                    <div class="pb-3">
+                                        <span class="badge bg-warning text-dark mb-3 rounded-0">DISPONIBLE
+                                            EXCLUSIVAMENTE EN MICROSOFT STORE</span>
+                                        <h3 class="text-white">Juega a tu manera</h3>
+                                        <p class="text-white">Joystick adaptable Xbox, diseñado para ser compañero de
+                                            los mandos Xbox.</p>
+                                        <div class="col">
+                                            <a href="https://www.xbox.com/es-ES/accessories/controllers/xbox-adaptive-joystick"
+                                                class="text-decoration-none text-white fw-bold rounded-0">VER
+                                                DETALLES ></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <hr>
-            <div class="column align-items-center justify-content-center">
-                <img src="img/atlassian-logo.svg" alt="" width="142.5" height="24">
-            </div>
-            <div>
-                <p class="text-center text-small">Una cuenta para Trello, Jira, Confluence y <a href="https://support.atlassian.com/atlassian-account/docs/what-is-an-atlassian-account/">más</a></p>
-            </div>
-        </div>
+        </section>
     </main>
+    <footer>
+        <section>
+            <nav class="navbar navbar-expand-sm mx-5 p-0">
+                <div class="container">
+                    <ul class="navbar-nav mx-auto mt-2 mt-lg-0 p-0 align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link">Sigue a Xbox</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://account.xbox.com/ContactPreferences"><img
+                                    src="img/ico_mail.svg" width="30"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="https://www.facebook.com/xboxes"><img
+                                    src="img/ico_facebook.svg" width="30"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="https://x.com/Xbox_Spain"><img src="img/ico_x.svg"
+                                    width="30"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="https://www.instagram.com/xbox_spain/"><img
+                                    src="img/ico_instagram.svg" width="30"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank"
+                                href="https://www.whatsapp.com/channel/0029Va4J1hI5a248Y7hu6A2Y"><img
+                                    src="img/ico_whatsapp.svg" width="30"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="https://www.tiktok.com/@xboxes"><img
+                                    src="img/ico_tiktoc.svg" width="30"></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" target="_blank" href="https://www.youtube.com/user/xboxes"><img
+                                    src="img/ico_youtube.svg" width="30"></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+        <section>
+            <nav class="navbar navbar-expand-sm bg-light p-0">
+                <div class="container">
+                    <ul class="navbar-nav mx-auto mt-2 mt-lg-0 p-0 align-items-center">
+                        <li class="nav-item">
+                            <a class="nav-link text-black" href="#"><img src="img/logoxbox.png" width="80"></a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
